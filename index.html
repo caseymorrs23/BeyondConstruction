@@ -18,6 +18,10 @@
       padding: 2em 1em;
       text-align: center;
     }
+    .logo {
+      max-width: 180px;
+      margin-bottom: 1em;
+    }
     nav ul {
       list-style: none;
       padding: 0;
@@ -139,11 +143,6 @@
 </head>
 <body>
 
-<header>
-  <h1>Beyond JB Construction</h1>
-  <p>Remodeling. Restoring. Refining Homes Across Pierce County and King County</p>
-</header>
-
 <nav>
   <ul>
     <li><a href="#services">Services</a></li>
@@ -157,4 +156,118 @@
   <h1>Building Beyond Expectations</h1>
 </div>
 
-<!-- rest of the content remains unchanged -->
+<div class="container">
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="services-list">
+      <div class="service-item">
+        <img src="luxury-renovation.png" alt="Luxury Renovations">
+        <h3>Luxury Renovations</h3>
+        <p>Transform your space with upscale remodeling tailored to your vision.</p>
+      </div>
+      <div class="service-item">
+        <img src="exteriors.png" alt="Exterior Upgrades">
+        <h3>Exterior Upgrades</h3>
+        <p>Enhance your home's curb appeal with siding, paint, windows, and more.</p>
+      </div>
+      <div class="service-item">
+        <img src="disaster-restoration.png" alt="Disaster Restoration">
+        <h3>Disaster Restoration</h3>
+        <p>Expert solutions for water, fire, and storm damage recovery—fast and discreet.</p>
+      </div>
+      <div class="service-item">
+        <img src="custom-roofing.png" alt="Custom Roofing">
+        <h3>Custom Roofing</h3>
+        <p>Precision-installed roofing systems designed to last and impress.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Project Gallery</h2>
+    <div class="services-list">
+      <div class="service-item">
+        <img src="kitchen.jpg" alt="Kitchen Remodels">
+        <h3>Kitchen Remodels</h3>
+        <p>Custom cabinetry, countertops, lighting, and high-end finishes.</p>
+      </div>
+      <div class="service-item">
+        <img src="bathroom.png" alt="Bathroom Upgrades">
+        <h3>Bathroom Upgrades</h3>
+        <p>Luxury baths, tiled showers, and spa-style comfort.</p>
+      </div>
+      <div class="service-item">
+        <img src="deck.png" alt="Deck Builds">
+        <h3>Deck Builds</h3>
+        <p>Durable outdoor decks designed for beauty and function.</p>
+      </div>
+      <div class="service-item">
+        <img src="roof.png" alt="Roofing Projects">
+        <h3>Roofing Projects</h3>
+        <p>Top-tier roofing installations that elevate curb appeal and value.</p>
+      </div>
+      <div class="service-item">
+        <img src="patio.png" alt="Patio Spaces">
+        <h3>Patio Spaces</h3>
+        <p>Stylish patios that extend your living space outdoors.</p>
+      </div>
+      <div class="service-item">
+        <img src="pavers.png" alt="Paver Installations">
+        <h3>Paver Installations</h3>
+        <p>Elegant paver pathways and driveways with precision layout.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section">
+    <h2>What Our Clients Are Saying</h2>
+    <div class="services-list">
+      <div class="service-item">
+        <p>“Beyond JB completely transformed our kitchen. The attention to detail and quality of work was outstanding!”</p>
+        <p><strong>– Sarah R., Bonney Lake</strong></p>
+      </div>
+      <div class="service-item">
+        <p>“We hired them for a full exterior renovation and couldn’t be happier. Everything was handled professionally and finished ahead of schedule.”</p>
+        <p><strong>– David T., Kent</strong></p>
+      </div>
+      <div class="service-item">
+        <p>“From roofing to restoration, they’ve done several projects for us. Always top-tier results!”</p>
+        <p><strong>– Michelle L., Puyallup</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:beyondcontruction67@gmail.com">beyondcontruction67@gmail.com</a></p>
+    <p>Phone: (253) 431-2046</p>
+    <p>Facebook: <a href="https://www.facebook.com/profile.php?id=61577006060375" target="_blank">Follow us on Facebook</a></p>
+  </section>
+
+  <section id="quote" class="section">
+    <h2>Request a Free Quote</h2>
+    <form action="https://formsubmit.co/beyondcontruction67@gmail.com" method="POST" target="_blank">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="message">Project Details</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <input type="hidden" name="_next" value="https://www.beyondjbconstruction.com/thank-you.html">
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2025 Beyond JB Construction and Restoration. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
